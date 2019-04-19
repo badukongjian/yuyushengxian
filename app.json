@@ -1,12 +1,30 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/my/my"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "雨宇生鲜",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "商店"
+      },
+        {
+          "pagePath": "pages/about/about",
+          "text": "优惠券"
+        },
+        {
+          "pagePath": "pages/my/my",
+          "text": "个人中心"
+        }
+    ]
   }
 }
